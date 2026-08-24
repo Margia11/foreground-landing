@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foreground — See what's running in the background on your Mac</title>
+  <meta name="description" content="Foreground explains, in plain English, every item in your Mac's Login Items list — what it is, who installed it, and whether you need it. $15 one-time, no subscription.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #101314; }
+    .container { max-width: 1120px; margin: 0 auto; padding-left: clamp(20px,5vw,48px); padding-right: clamp(20px,5vw,48px); }
+    h1, h2, h3 { font-family: "Space Grotesk", -apple-system, sans-serif; margin: 0; }
+    p { margin: 0; }
+    a { color: #2E9CFF; text-decoration: underline; text-underline-offset: 2px; }
+    a:hover { color: #6FBBFF; }
+    .btn-primary { display: inline-flex; align-items: center; justify-content: center; padding: 16px 32px; border-radius: 12px; font-family: -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif; font-weight: 600; font-size: 16.5px; text-decoration: none; color: #081019; box-shadow: 0 16px 32px -14px rgba(46,156,255,0.45); }
+    .btn-primary:hover { box-shadow: 0 20px 36px -14px rgba(46,156,255,0.55); }
+    .btn-ghost { display: inline-flex; align-items: center; justify-content: center; padding: 10px 20px; border-radius: 10px; font-family: -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif; font-weight: 600; font-size: 14px; text-decoration: none; border: 1.5px solid currentColor; }
+    .steps-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 40px; }
+    .benefits-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 28px; }
+    @media (max-width: 860px) {
+      .steps-grid { grid-template-columns: 1fr; gap: 32px; }
+      .benefits-grid { grid-template-columns: 1fr; gap: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<div style="font-family: -apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',sans-serif; color: #F2F4F3; background: #101314;">
+
+  <!-- NAV -->
+  <div class="container" style="display:flex; align-items:center; justify-content:space-between; padding-top:28px; padding-bottom:28px;">
+    <div style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:20px; color:#F2F4F3;">Foreground</div>
+    <a href="#" class="btn-ghost" style="color:#2E9CFF; border-color:#2E9CFF;">Buy — $15</a>
+  </div>
+
+  <!-- HERO -->
+  <div class="container" style="padding-top:24px; padding-bottom:88px;">
+    <div style="display:flex; flex-direction:column; align-items:center; text-align:center; gap:22px; max-width:720px; margin:0 auto;">
+      <div style="display:inline-flex; align-items:center; gap:8px; background:rgba(46,156,255,0.12); color:#2E9CFF; font-size:13px; font-weight:600; padding:7px 14px; border-radius:999px; width:fit-content;">
+        <span style="width:6px; height:6px; border-radius:50%; background:#2E9CFF;"></span>
+        System Settings → General → Login Items
+      </div>
+      <h1 style="font-size:clamp(2.2rem,4.6vw,3.4rem); line-height:1.14; font-weight:600; color:#F8FAF9;">
+        “Allow in the Background.” You've seen it. You have no idea what's on it.
+      </h1>
+      <p style="font-size:17.5px; line-height:1.6; color:#9BA39F; max-width:520px;">
+        Foreground reads it for you: what each item is, which app installed it, whether you actually need it, and what happens if you turn it off. Plain English, zero jargon.
+      </p>
+      <div style="display:flex; flex-direction:column; gap:10px; align-items:center; padding-top:8px;">
+        <a href="#" class="btn-primary" style="background:#2E9CFF;">Buy — $15</a>
+        <span style="font-size:13px; color:#9BA39F;">One-time payment · no subscription</span>
+      </div>
+    </div>
+
+    <!-- APP SCREENSHOT (real product, not a mockup) -->
+    <div style="width:100%; max-width:1040px; margin:56px auto 0; border-radius:14px; overflow:hidden; box-shadow:0 40px 72px -20px rgba(0,0,0,0.55), 0 14px 28px -12px rgba(0,0,0,0.4);">
+      <img src="assets/foreground-screenshot.jpg" alt="Foreground app window showing a list of background items, each with a plain-English explanation and a safety badge" style="display:block; width:100%; height:auto;">
+    </div>
+    <!-- /APP SCREENSHOT -->
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <div style="background:#181B1D; padding-top:80px; padding-bottom:80px;">
+    <div class="container">
+      <h2 style="font-size:clamp(1.6rem,2.6vw,2.1rem); font-weight:600; color:#F8FAF9; margin-bottom:48px;">How it works</h2>
+      <div class="steps-grid">
+
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <div style="font-family:'Space Grotesk',sans-serif; font-size:15px; font-weight:600; color:#2E9CFF;">01</div>
+          <h3 style="font-size:19px; font-weight:600; color:#F8FAF9;">Scan</h3>
+          <p style="font-size:15px; line-height:1.6; color:#9BA39F;">Foreground scans everything that starts on its own on your Mac, in seconds. It only looks — nothing changes.</p>
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <div style="font-family:'Space Grotesk',sans-serif; font-size:15px; font-weight:600; color:#2E9CFF;">02</div>
+          <h3 style="font-size:19px; font-weight:600; color:#F8FAF9;">Explain</h3>
+          <p style="font-size:15px; line-height:1.6; color:#9BA39F;">For every item you get who installed it, what it actually does, and how risky it is to touch. Plain English, not acronyms.</p>
+        </div>
+
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <div style="font-family:'Space Grotesk',sans-serif; font-size:15px; font-weight:600; color:#2E9CFF;">03</div>
+          <h3 style="font-size:19px; font-weight:600; color:#F8FAF9;">You decide</h3>
+          <p style="font-size:15px; line-height:1.6; color:#9BA39F;">Foreground never turns anything off or deletes anything on its own. The decisions stay yours — we just give you what you need to make them well.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- BENEFITS -->
+  <div style="padding-top:80px; padding-bottom:80px;">
+    <div class="container">
+      <h2 style="font-size:clamp(1.6rem,2.6vw,2.1rem); font-weight:600; color:#F8FAF9; margin-bottom:48px;">Built for people who aren't tech experts</h2>
+      <div class="benefits-grid">
+
+        <div style="display:flex; gap:16px; padding:26px; background:#1B1F21; border:1px solid #262B2D; border-radius:14px;">
+          <div style="flex-shrink:0; width:40px; height:40px; border-radius:10px; background:rgba(46,156,255,0.12); display:flex; align-items:center; justify-content:center; color:#2E9CFF;">
+            <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:6px;">
+            <h3 style="font-size:16.5px; font-weight:600; color:#F8FAF9;">No subscription</h3>
+            <p style="font-size:14px; line-height:1.55; color:#9BA39F;">One payment, the app is yours for good. No auto-renewals.</p>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:16px; padding:26px; background:#1B1F21; border:1px solid #262B2D; border-radius:14px;">
+          <div style="flex-shrink:0; width:40px; height:40px; border-radius:10px; background:rgba(46,156,255,0.12); display:flex; align-items:center; justify-content:center; color:#2E9CFF;">
+            <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="11" width="13" height="9" rx="2"/><path d="M8.5 11V8a3.5 3.5 0 0 1 7 0v3"/></svg>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:6px;">
+            <h3 style="font-size:16.5px; font-weight:600; color:#F8FAF9;">Never touches anything without asking</h3>
+            <p style="font-size:14px; line-height:1.55; color:#9BA39F;">Foreground reads and explains. It doesn't disable or delete anything on its own.</p>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:16px; padding:26px; background:#1B1F21; border:1px solid #262B2D; border-radius:14px;">
+          <div style="flex-shrink:0; width:40px; height:40px; border-radius:10px; background:rgba(46,156,255,0.12); display:flex; align-items:center; justify-content:center; color:#2E9CFF;">
+            <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8.5a15 15 0 0 1 16 0"/><path d="M7 12.2a10.5 10.5 0 0 1 10 0"/><path d="M10 15.8a5.8 5.8 0 0 1 4 0"/><circle cx="12" cy="19" r="0.9" fill="currentColor" stroke="none"/><path d="M3 3l18 18"/></svg>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:6px;">
+            <h3 style="font-size:16.5px; font-weight:600; color:#F8FAF9;">Works offline</h3>
+            <p style="font-size:14px; line-height:1.55; color:#9BA39F;">The app database is already built in — no internet connection needed.</p>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:16px; padding:26px; background:#1B1F21; border:1px solid #262B2D; border-radius:14px;">
+          <div style="flex-shrink:0; width:40px; height:40px; border-radius:10px; background:rgba(46,156,255,0.12); display:flex; align-items:center; justify-content:center; color:#2E9CFF;">
+            <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5h16v10H9l-4 3.5v-3.5H4z"/><path d="M8 9.5h8M8 12.5h5"/></svg>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:6px;">
+            <h3 style="font-size:16.5px; font-weight:600; color:#F8FAF9;">Plain language, always</h3>
+            <p style="font-size:14px; line-height:1.55; color:#9BA39F;">Every explanation reads like a friend explaining it — never acronyms or technical fine print.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div style="background:#181B1D; padding-top:80px; padding-bottom:80px;">
+    <div class="container" style="max-width:760px;">
+      <h2 style="font-size:clamp(1.6rem,2.6vw,2.1rem); font-weight:600; color:#F8FAF9; margin-bottom:40px;">Frequently asked questions</h2>
+      <div style="display:flex; flex-direction:column;">
+
+        <div style="padding:22px 0; border-bottom:1px solid #262B2D; display:flex; flex-direction:column; gap:8px;">
+          <div style="font-weight:600; font-size:16px; color:#F8FAF9;">Is it safe to use?</div>
+          <p style="font-size:14.5px; line-height:1.6; color:#9BA39F;">Yes. Foreground only reads information already on your Mac — which programs start on their own — and never modifies, disables, or deletes anything unless you explicitly choose to elsewhere.</p>
+        </div>
+
+        <div style="padding:22px 0; border-bottom:1px solid #262B2D; display:flex; flex-direction:column; gap:8px;">
+          <div style="font-weight:600; font-size:16px; color:#F8FAF9;">Do I need an internet connection?</div>
+          <p style="font-size:14.5px; line-height:1.6; color:#9BA39F;">No. App recognition uses a database built into the app itself: it works offline, on a plane, or without Wi-Fi.</p>
+        </div>
+
+        <div style="padding:22px 0; border-bottom:1px solid #262B2D; display:flex; flex-direction:column; gap:8px;">
+          <div style="font-weight:600; font-size:16px; color:#F8FAF9;">Does it need administrator access?</div>
+          <p style="font-size:14.5px; line-height:1.6; color:#9BA39F;">No. Foreground only reads what your own user account can already see — it will never ask for your admin password to run a scan.</p>
+        </div>
+
+        <div style="padding:22px 0; display:flex; flex-direction:column; gap:8px;">
+          <div style="font-weight:600; font-size:16px; color:#F8FAF9;">Which Macs does it work on?</div>
+          <p style="font-size:14.5px; line-height:1.6; color:#9BA39F;">macOS 13 (Ventura) or later, on both Apple Silicon and Intel Macs.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- FINAL CTA -->
+  <div style="background:#2E9CFF; padding-top:76px; padding-bottom:56px;">
+    <div class="container" style="display:flex; flex-direction:column; align-items:center; text-align:center; gap:18px;">
+      <h2 style="font-size:clamp(1.8rem,3.4vw,2.5rem); font-weight:600; color:#081019;">Finally see what's actually running on your Mac.</h2>
+      <p style="font-size:16px; color:#0E2233; max-width:440px; line-height:1.55;">$15, once. No subscription, no surprises.</p>
+      <a href="#" style="display:inline-flex; align-items:center; justify-content:center; padding:16px 32px; border-radius:12px; background:#081019; color:#2E9CFF; font-weight:700; font-size:16.5px; text-decoration:none; margin-top:6px;">Buy — $15</a>
+      <div style="font-size:12.5px; color:#0E2233; padding-top:24px; opacity:0.85;">Compatible with macOS 13 Ventura and later · Universal (Apple Silicon &amp; Intel)</div>
+      <div style="font-size:12px; color:#0E2233;">© 2026 Foreground</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
