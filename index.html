@@ -49,7 +49,7 @@
   <!-- NAV -->
   <div class="container" style="display:flex; align-items:center; justify-content:space-between; padding-top:28px; padding-bottom:28px;">
     <div style="font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:20px; color:#F2F4F3;">Foreground</div>
-    <a href="#waitlist" class="btn-ghost" style="color:#2E9CFF; border-color:#2E9CFF;">Notify Me</a>
+    <a href="https://getforeground.lemonsqueezy.com/checkout/buy/a0f1f923-7bb2-4ea3-8eb7-67dfdf4604ef?logo=0" class="btn-ghost" style="color:#2E9CFF; border-color:#2E9CFF;">Buy — $15</a>
   </div>
 
   <!-- HERO -->
@@ -65,14 +65,11 @@
       <p style="font-size:17.5px; line-height:1.6; color:#9BA39F; max-width:520px;">
         Foreground reads it for you: what each item is, which app installed it, whether you actually need it, and what happens if you turn it off. Plain English, zero jargon.
       </p>
-      <form id="waitlist" action="https://formspree.io/f/mdenroyd" method="POST" style="display:flex; flex-direction:column; gap:10px; align-items:center; padding-top:8px;">
-        <input type="hidden" name="_subject" value="New Foreground waitlist signup">
-        <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center;">
-          <input type="email" name="email" required placeholder="you@email.com" style="padding:14px 16px; border-radius:12px; border:1px solid #262B2D; background:#1B1F21; color:#F2F4F3; font-size:15px; min-width:240px; font-family:inherit;">
-          <button type="submit" class="btn-primary" style="background:#2E9CFF; border:none; cursor:pointer; font-family:inherit;">Notify Me</button>
-        </div>
-        <span style="font-size:13px; color:#9BA39F;">Free — I'll email you the moment it's ready</span>
-      </form>
+      <div id="waitlist" style="display:flex; flex-direction:column; gap:10px; align-items:center; padding-top:8px;">
+        <a href="https://getforeground.lemonsqueezy.com/checkout/buy/a0f1f923-7bb2-4ea3-8eb7-67dfdf4604ef?logo=0" class="btn-primary" style="background:#2E9CFF;">Buy Foreground — $15</a>
+        <span style="font-size:13px; color:#9BA39F;">One-time payment · instant download · works offline</span>
+        <span style="font-size:12.5px; color:#6E7674;">Not yet notarized by Apple — first launch needs a right-click → Open. <a href="#faq-notarized" style="color:#6E7674;">Why?</a></span>
+      </div>
     </div>
 
     <!-- APP SCREENSHOT (real product, not a mockup) -->
@@ -181,9 +178,14 @@
           <p style="font-size:14.5px; line-height:1.6; color:#9BA39F;">No. Foreground only reads what your own user account can already see — it will never ask for your admin password to run a scan.</p>
         </div>
 
-        <div style="padding:22px 0; display:flex; flex-direction:column; gap:8px;">
+        <div style="padding:22px 0; border-bottom:1px solid #262B2D; display:flex; flex-direction:column; gap:8px;">
           <div style="font-weight:600; font-size:16px; color:#F8FAF9;">Which Macs does it work on?</div>
           <p style="font-size:14.5px; line-height:1.6; color:#9BA39F;">macOS 13 (Ventura) or later, on both Apple Silicon and Intel Macs.</p>
+        </div>
+
+        <div id="faq-notarized" style="padding:22px 0; display:flex; flex-direction:column; gap:8px;">
+          <div style="font-weight:600; font-size:16px; color:#F8FAF9;">Why does macOS warn me when I open it?</div>
+          <p style="font-size:14.5px; line-height:1.6; color:#9BA39F;">Foreground is early-stage and not yet notarized by Apple (that costs a yearly developer fee we're not paying until we're sure people want this). The first time you open it, right-click the app and choose "Open" instead of double-clicking — macOS will ask you to confirm once, and that's it. The app itself never asks for your admin password.</p>
         </div>
 
       </div>
@@ -194,12 +196,8 @@
   <div style="background:#2E9CFF; padding-top:76px; padding-bottom:56px;">
     <div class="container" style="display:flex; flex-direction:column; align-items:center; text-align:center; gap:18px;">
       <h2 style="font-size:clamp(1.8rem,3.4vw,2.5rem); font-weight:600; color:#081019;">Finally see what's actually running on your Mac.</h2>
-      <p style="font-size:16px; color:#0E2233; max-width:440px; line-height:1.55;">Join the list — free, no spam, one email when it's ready.</p>
-      <form action="https://formspree.io/f/mdenroyd" method="POST" style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-top:6px;">
-        <input type="hidden" name="_subject" value="New Foreground waitlist signup">
-        <input type="email" name="email" required placeholder="you@email.com" style="padding:14px 16px; border-radius:12px; border:none; background:#081019; color:#F2F4F3; font-size:15px; min-width:240px; font-family:inherit;">
-        <button type="submit" style="display:inline-flex; align-items:center; justify-content:center; padding:16px 32px; border-radius:12px; background:#081019; color:#2E9CFF; font-weight:700; font-size:16.5px; border:none; cursor:pointer; font-family:inherit;">Notify Me</button>
-      </form>
+      <p style="font-size:16px; color:#0E2233; max-width:440px; line-height:1.55;">One-time payment, instant download, works offline.</p>
+      <a href="https://getforeground.lemonsqueezy.com/checkout/buy/a0f1f923-7bb2-4ea3-8eb7-67dfdf4604ef?logo=0" style="display:inline-flex; align-items:center; justify-content:center; padding:16px 32px; border-radius:12px; background:#081019; color:#2E9CFF; font-weight:700; font-size:16.5px; text-decoration:none; font-family:inherit; margin-top:6px;">Buy Foreground — $15</a>
       <div style="font-size:12.5px; color:#0E2233; padding-top:24px; opacity:0.85;">Compatible with macOS 13 Ventura and later · Universal (Apple Silicon &amp; Intel)</div>
       <div style="font-size:12px; color:#0E2233;">© 2026 Foreground</div>
     </div>
